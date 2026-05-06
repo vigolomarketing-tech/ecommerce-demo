@@ -979,3 +979,182 @@ button{
   }
 
 }
+/* ===== NUEVO HERO ECOMMERCE ===== */
+
+body{
+  background:#f5f5f7;
+  color:#111111;
+}
+
+.header{
+  background:rgba(255,255,255,0.92);
+  border-bottom:1px solid rgba(0,0,0,0.06);
+  backdrop-filter:blur(18px);
+}
+
+.logo h1{
+  color:#111;
+}
+
+.logo span{
+  color:#ff7a00;
+}
+
+.nav-links a{
+  color:#222;
+}
+
+.hero{
+  background:
+  radial-gradient(circle at top right, rgba(255,122,0,0.12), transparent 30%),
+  linear-gradient(to bottom,#ffffff,#f5f5f7);
+}
+
+.hero-badge{
+  background:#fff1e6;
+  color:#ff7a00;
+  border:1px solid rgba(255,122,0,0.15);
+}
+
+.hero h2{
+  color:#111;
+}
+
+.hero h2 span{
+  color:#ff7a00;
+}
+
+.hero p{
+  color:#555;
+}
+
+.primary-btn{
+  background:#ff7a00;
+  color:white;
+  box-shadow:0 14px 30px rgba(255,122,0,0.22);
+}
+
+.primary-btn:hover{
+  background:#ff8f1f;
+}
+
+.secondary-btn{
+  background:white;
+  border:1px solid rgba(0,0,0,0.08);
+  color:#111;
+}
+
+/* STORE PREVIEW */
+
+.store-preview{
+  background:white;
+  border-radius:34px;
+  overflow:hidden;
+  border:1px solid rgba(0,0,0,0.06);
+  box-shadow:
+  0 20px 60px rgba(0,0,0,0.08);
+}
+
+.store-top{
+  display:flex;
+  gap:10px;
+  padding:18px;
+  border-bottom:1px solid rgba(0,0,0,0.06);
+}
+
+.dot{
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  background:#d1d5db;
+}
+
+.store-banner{
+  padding:40px;
+  background:
+  linear-gradient(135deg,#111111,#2b2b2b);
+  color:white;
+}
+
+.banner-content span{
+  color:#ff7a00;
+  font-weight:700;
+  font-size:.9rem;
+  letter-spacing:1px;
+}
+
+.banner-content h3{
+  font-size:2rem;
+  margin:12px 0;
+}
+
+.banner-content p{
+  color:#d1d5db;
+}
+
+.mini-products{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:22px;
+  padding:28px;
+}
+
+.mini-card{
+  background:#fff;
+  border-radius:24px;
+  padding:18px;
+  border:1px solid rgba(0,0,0,0.06);
+  transition:.25s;
+}
+
+.mini-card:hover{
+  transform:translateY(-4px);
+}
+
+.mini-image{
+  height:180px;
+  border-radius:18px;
+  background:
+  linear-gradient(135deg,#f1f1f1,#e5e7eb);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  color:#666;
+  margin-bottom:16px;
+}
+
+.mini-card h4{
+  color:#111;
+  margin-bottom:6px;
+}
+
+.mini-card span{
+  color:#ff7a00;
+  font-weight:700;
+}
+
+/* PRODUCTOS */
+
+.product-card{
+  background:white;
+  border:1px solid rgba(0,0,0,0.06);
+  box-shadow:0 10px 30px rgba(0,0,0,0.05);
+}
+
+.product-card h3{
+  color:#111;
+}
+
+.price{
+  color:#ff7a00;
+}
+
+.add-cart{
+  background:#111;
+  color:white;
+}
+
+.add-cart:hover{
+  background:#222;
+}
