@@ -1158,3 +1158,44 @@ body{
 .add-cart:hover{
   background:#222;
 }
+/* ===== HEADER MÁS PREMIUM / MÁS CONTRASTE ===== */
+
+.header {
+  background: rgba(17, 17, 17, 0.96);
+  border-bottom: 1px solid rgba(255, 122, 0, 0.18);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+}
+
+.logo strong {
+  color: #ffffff;
+}
+
+.logo small {
+  color: #ff7a00;
+}
+
+.logo__mark {
+  background: linear-gradient(135deg, #ff7a00, #ffb86b);
+  color: #111111;
+  box-shadow: 0 12px 30px rgba(255, 122, 0, 0.28);
+}
+
+.nav__menu a {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.nav__menu a:hover {
+  color: #ff7a00;
+}
+
+.cart-button {
+  background: #ff7a00;
+  color: #111111;
+  border: 1px solid rgba(255, 122, 0, 0.35);
+  box-shadow: 0 10px 24px rgba(255, 122, 0, 0.22);
+}
+
+.cart-button:hover {
+  background: #ff8f1f;
+  color: #111111;
+}
